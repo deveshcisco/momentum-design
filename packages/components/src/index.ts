@@ -23,7 +23,7 @@ import Text from './components/text';
 import ThemeProvider from './components/themeprovider';
 import Toggle from './components/toggle';
 import VirtualizedList from './components/virtualizedlist';
-import Tablist from './components/tablist';
+import TabList from './components/tablist';
 
 import { inMemoryCache, webAPIIconsCache } from './utils/icon-cache';
 import Textarea from './components/textarea';
@@ -57,9 +57,8 @@ export {
   ThemeProvider,
   Toggle,
   VirtualizedList,
-  Tablist,
   Textarea,
-  Tablist,
+  TabList,
 };
 export type {
   TextType,
